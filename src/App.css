@@ -1,0 +1,11 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main { flex: 1; }
+
+/* Mobile CTA bottom padding so content doesn't get hidden */
+@media (max-width: 900px) {
+  main { padding-bottom: 4rem; }
+}
